@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache>
+	<defaultCache maxElementsInMemory="10000" 
+		eternal="false"
+		timeToIdleSeconds="3600" 
+		timeToLiveSeconds="3600" 
+		overflowToDisk="false"
+		diskSpoolBufferSizeMB="30" 
+		maxElementsOnDisk="10000000"
+		diskPersistent="false" 
+		diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" 
+		statistics="true" />
+
+	<cache name="min" 
+		maxElementsInMemory="10000" 
+		eternal="false"
+		timeToLiveSeconds="60" 
+		overflowToDisk="false" />
+		
+	<cache name="4test" 
+        maxElementsInMemory="10000" 
+        eternal="false"
+        timeToLiveSeconds="60" 
+        overflowToDisk="false" />	
+		
+</ehcache>
